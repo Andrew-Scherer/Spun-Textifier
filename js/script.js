@@ -32,7 +32,7 @@ var theSpinner = function () {
     var replacedText = spunText[0].replace(joinBlock, theWinner);
     console.log("the winner is " + theWinner);
     spunText = [replacedText]
-    console.log(spunText)
+    $('#output').text(spunText)
     tempArray = spunText[0].split("")
 
 }
